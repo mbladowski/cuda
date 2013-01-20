@@ -40,8 +40,8 @@ int main(int argc, char **argv)
 
 	if(moje_id == 0) 
 	{
-		printf("\tCzas liczenia PI rownolegle na procesorze: %.6f s.\n", (stop-start)/(float)CLOCKS_PER_SEC);
-		printf("\tWartosc PI wg CPU (sekw.): %.10f (blad: %.10f).\n", pi_proc_rown, pi_proc_rown - PI);
+		printf("\t-> Czas liczenia PI rownolegle na procesorze: %.6f s.\n", (stop-start)/(float)CLOCKS_PER_SEC);
+		printf("\t-> Wartosc PI wg CPU (sekw.): %.10f (blad: %.10f).\n", pi_proc_rown, pi_proc_rown - PI);
 	}
 
 	MPI_Finalize();
