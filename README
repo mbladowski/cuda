@@ -1,1 +1,11 @@
 Projekt z "Zaawansowanych obliczen na kartach graficznych"
+
+Zaimplementowane programy, to metoda Monte Carlo szacowania wartosci liczby PI
+w wersji na CUDA, w wersji na procesorze (sekwencyjnie) oraz w wersji rownoleglej na procesorze (z uzyciem MPI).
+
+---
+
+Project for the "Advanced Computations using GFX cards"
+
+Implemented programs are variations of Monte Carlo method of estimating PI, respectively 
+using CUDA, using MPI and sequentially on CPU.
